@@ -1,0 +1,516 @@
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: rgb(54, 152, 244);
+    justify-items: center;
+
+}
+
+.item {
+    display: flex;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-30%);
+}
+
+.list {
+    list-style: none;
+    padding: 0px 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.item li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 15, 15);
+    border-radius: 2px;
+    padding: 1px 0px;
+}
+
+.btn {
+    position: absolute;
+    right: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-100%);
+}
+
+.search {
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px -22px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-100%);
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+
+.section1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 130px;
+    height: 280px;
+}
+
+.section1::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: url('/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    animation: matto 5s  linear infinite;
+    opacity: 0.5;
+}
+/* @keyframes matto{
+    0%{
+        background: url('/images/tourist-sitting-phu-sub-lek-viewpoint-sunset-lopburi-thailand.jpg') no-repeat center center/cover;
+        opacity:0.5 ;
+    }
+    50%{
+        background: url('/images/France.jpg') no-repeat center center/cover;
+        opacity: 0.5;
+    }
+    100%{
+        background: url('/images/Australia.jpg') no-repeat center center/cover;
+        opacity: 0.3;
+    }
+} */
+/* span::after{
+    content
+} */
+
+.section2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 a {
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 1px 5px;
+
+}
+
+.section2 p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+.section2 a:hover {
+    color: rgb(79, 116, 238);
+    background-color: white;
+}
+
+.India {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.India:hover{
+    transform: scale(1.1); 
+}
+
+.India::before {
+    content: "";
+    position: absolute;
+    background: url('/India1.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Spain {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Spain:hover{
+    transform: scale(1.1); 
+}
+
+.Spain::before {
+    content: "";
+    position: absolute;
+    background: url('/spain.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Australia {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Australia:hover{
+    transform: scale(1.1); 
+}
+
+.Australia::before {
+    content: "";
+    position: absolute;
+    background: url('/Australia.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Italy {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Italy:hover{
+    transform: scale(1.1); 
+}
+
+.Italy::before {
+    content: "";
+    position: absolute;
+    background: url('/Italy.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.France {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.France:hover{
+    transform: scale(1.1); 
+}
+
+.France::before {
+    content: "";
+    position: absolute;
+    background: url('/France.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Greece {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Greece:hover{
+    transform: scale(1.1); 
+}
+
+.Greece::before {
+    content: "";
+    position: absolute;
+    background: url('/Greece.png') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Switzerland {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Switzerland:hover{
+    transform: scale(1.1); 
+}
+
+.Switzerland::before {
+    content: "";
+    position: absolute;
+    background: url('/Switezerland.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.NewZealand {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.NewZealand:hover{
+    transform: scale(1.1); 
+}
+
+.NewZealand::before {
+    content: "";
+    position: absolute;
+    background: url('/New\ Zealand.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.Thailand {
+    position: relative;
+    display: inline-block;
+    color: black;
+    width: 350px;
+    height: 180px;
+    margin: 25px 20px;
+    transition: transform .2s;
+}
+.Thailand:hover{
+    transform: scale(1.1); 
+}
+
+.Thailand::before {
+    content: "";
+    position: absolute;
+    background: url('/Thailand.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.details{
+    text-align: center;
+    font-size: 35px;
+}
+
+.section3 {
+    position: relative;
+    padding:10px;
+    margin-bottom: 100px;
+}
+
+.box3 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: 20px 50px;
+    padding: 20px;
+    width: 500px;
+    height: 700px;
+}
+
+.section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('/form\ bg.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.end {
+    border: 2px solid black;
+    position: relative;
+}
+
+.end::before {
+    content: "";
+    position: absolute;
+    background: url('/fotter.jpg') no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.finish {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.logo {
+    /* position: relative; */
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: 25px 20px;
+}
+
+.logo img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.Email {
+    width: 600px;
+    height: 150px;
+    margin: 25px 20px;
+}
+
+.Email img {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    margin: 10px 45px;
+}
+
+.contact {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.Phone {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    margin: 25px 20px;
+}
+
+.Phone img {
+    display: block;
+    width: 37px;
+    height: 56px;
+    margin: auto;
+}
